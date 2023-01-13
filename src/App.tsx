@@ -3,6 +3,7 @@ import { Main } from './App.style';
 import { Header } from './components/Header/Header';
 import { About } from './components/About/About';
 import { Formation } from './components/Formation/Formation';
+import { Experiences } from './components/Experiences/Experiences';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Header/>
       <About/>
       <Formation/>
+      <Experiences/>
     </Main>
   );
 }

@@ -6,10 +6,10 @@ import profes from "../../assets/img/profes.png";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Experiences = () => {
-  const experiencesList = [
+  const contentList = [
     {
         photo:profes,
-        title:"Professor particula de programação",
+        title:"Professor particular de programação",
         subtitle:"Plataforma SuperProf e Profes",
         text:"Out 2022 - Momento"
     },
@@ -54,12 +54,12 @@ export const Experiences = () => {
   return (
     <Container>
       <Title>Experiências</Title>
-      {experiencesList.map((experience) => (
+      {contentList.map((content) => (
         <ItemList
-          image={experience.photo}
-          title={experience.title}
-          subtitle={experience.subtitle}
-          text={experience.text}
+          image={content.photo}
+          title={content.title}
+          subtitle={content.subtitle}
+          text={content.text}
         />
       ))}
     </Container>

@@ -4,7 +4,7 @@ import alura from "../../assets/img/alura.jpeg";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Certificates = () => {
-  const experiencesList = [
+  const contentList = [
     {
       photo: alura,
       title: "Git e Github: controle e compartilhe seu código",
@@ -52,12 +52,12 @@ export const Certificates = () => {
   return (
     <Container>
       <Title>Experiências</Title>
-      {experiencesList.map((experience) => (
+      {contentList.map((content) => (
         <ItemList
-          image={experience.photo}
-          title={experience.title}
-          subtitle={experience.subtitle}
-          text={experience.text}
+          image={content.photo}
+          title={content.title}
+          subtitle={content.subtitle}
+          text={content.text}
         />
       ))}
     </Container>

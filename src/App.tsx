@@ -5,6 +5,7 @@ import { About } from './components/About/About';
 import { Formation } from './components/Formation/Formation';
 import { Experiences } from './components/Experiences/Experiences';
 import { Certificates } from './components/Certificates/Certificates';
+import { Awards } from './components/Awards/Awards';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Formation/>
       <Experiences/>
       <Certificates/>
+      <Awards/>
     </Main>
   );
 }

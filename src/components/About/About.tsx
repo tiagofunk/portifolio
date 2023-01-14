@@ -3,7 +3,6 @@ import { Container, Title, Text, IconsArea, Icon } from "./About.style";
 import github from "../../assets/img/About/github.png";
 import linkedin from "../../assets/img/About/linkedin.png";
 import gmail from "../../assets/img/About/gmail.png";
-import { ExternalLink } from "react-external-link";
 
 export const About = () => {
   const TITLE = "Tiago Funk";
@@ -20,8 +19,8 @@ export const About = () => {
         <Text>{text}</Text>
       ))}
       <IconsArea>
-        <ExternalLink href="https://github.com/tiagofunk"><Icon src={github} /></ExternalLink>
-        <ExternalLink href="https://www.linkedin.com/in/tiago-funk/"><Icon src={linkedin} /></ExternalLink>
+        <a href="https://github.com/tiagofunk" target="_blank" rel="noreferrer"><Icon src={github} /></a>
+        <a href="https://github.com/tiagofunk" target="_blank" rel="noreferrer"><Icon src={linkedin} /></a>
         <Icon src={gmail} />
       </IconsArea>
     </Container>

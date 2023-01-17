@@ -51,7 +51,7 @@ export const Certificates = () => {
 
   return (
     <Container>
-      <Title>Experiências</Title>
+      <Title>Certificados</Title>
       {contentList.map((content) => (
         <ItemList
           image={content.photo}

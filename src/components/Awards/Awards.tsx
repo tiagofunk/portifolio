@@ -27,7 +27,7 @@ export const Awards = () => {
 
   return (
     <Container>
-      <Title>Experiências</Title>
+      <Title>Prêmios</Title>
       {contentList.map((content) => (
         <ItemList
           image={content.photo}

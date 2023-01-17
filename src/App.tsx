@@ -6,12 +6,14 @@ import { Formation } from './components/Formation/Formation';
 import { Experiences } from './components/Experiences/Experiences';
 import { Certificates } from './components/Certificates/Certificates';
 import { Awards } from './components/Awards/Awards';
+import { Tecnologies } from './components/Tecnologies/Tecnologies';
 
 function App() {
   return (
     <Main>
       <Header/>
       <About/>
+      <Tecnologies/>
       <Formation/>
       <Experiences/>
       <Certificates/>

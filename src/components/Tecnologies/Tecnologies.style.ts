@@ -13,7 +13,8 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.div`
-  font-size: 3.2rem;
+  font-size: 2.4rem;
+  
 `;
 
 export const AllImages = styled.div`

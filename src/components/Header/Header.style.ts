@@ -7,14 +7,10 @@ export const Container = styled.div`
     align-items: center;
 `;
 
-export const Image = styled.img`
-    width: 100%;
-    height: 30rem;
-`;
-
 export const Icon = styled.img`
-    width: 42%;
-    height: 42%;
-    margin-top: -20rem;
+    width: 22%;
+    height: 22%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 200rem;
 `;

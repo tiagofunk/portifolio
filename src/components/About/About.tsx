@@ -1,8 +1,4 @@
-import { Container, Title, Text, IconsArea, Icon } from "./About.style";
-
-import github from "../../assets/img/About/github.png";
-import linkedin from "../../assets/img/About/linkedin.png";
-import gmail from "../../assets/img/About/gmail.png";
+import { Container, Title, Text } from "./About.style";
 
 export const About = () => {
   const TITLE = "Tiago Funk";
@@ -18,11 +14,6 @@ export const About = () => {
       {TEXT.map((text) => (
         <Text>{text}</Text>
       ))}
-      <IconsArea>
-        <a href="https://github.com/tiagofunk" target="_blank" rel="noreferrer"><Icon src={github} /></a>
-        <a href="https://github.com/tiagofunk" target="_blank" rel="noreferrer"><Icon src={linkedin} /></a>
-        <Icon src={gmail} />
-      </IconsArea>
     </Container>
   );
 };

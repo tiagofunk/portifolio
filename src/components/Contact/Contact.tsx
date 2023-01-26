@@ -1,9 +1,9 @@
 import { Container, Title, IconsArea, Icon } from "./Contact.style";
 
-import github from "../../assets/img/About/github.png";
-import linkedin from "../../assets/img/About/linkedin.png";
-import gmail from "../../assets/img/About/gmail.png";
-import whatsapp from "../../assets/img/About/whatsapp.png";
+import github from "../../assets/img/Contact/github.png";
+import linkedin from "../../assets/img/Contact/linkedin.png";
+import gmail from "../../assets/img/Contact/gmail.png";
+import whatsapp from "../../assets/img/Contact/whatsapp.png";
 
 export const Contact = () => {
 

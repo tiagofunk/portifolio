@@ -1,6 +1,6 @@
 import { Container, Title } from "./Certificates.style";
 
-import alura from "../../assets/img/alura.jpeg";
+import alura from "../../assets/img/Icons/alura.jpeg";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Certificates = () => {

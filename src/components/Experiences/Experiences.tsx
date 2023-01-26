@@ -1,8 +1,8 @@
 import { Container, Title } from "./Experiences.style";
 
-import udesc from "../../assets/img/udesc.png";
-import nelogica from "../../assets/img/nelogica.jpeg";
-import profes from "../../assets/img/profes.png";
+import udesc from "../../assets/img/Icons/udesc.png";
+import nelogica from "../../assets/img/Icons/nelogica.jpeg";
+import profes from "../../assets/img/Icons/profes.png";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Experiences = () => {

@@ -1,6 +1,6 @@
 import { Container, Title } from "./Awards.style";
 
-import udesc from "../../assets/img/udesc.png";
+import udesc from "../../assets/img/Icons/udesc.png";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Awards = () => {

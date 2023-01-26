@@ -21,7 +21,7 @@ export const Awards = () => {
     {
         photo:udesc,
         title:"Melhor Projeto de Pesquisa",
-        subtitle:"V salão de ensino, pesquisa e extensão - SEPEX",
+        subtitle:"V Salão de ensino, pesquisa e extensão - SEPEX",
         text:"Set de 2018"
     },
   ];

@@ -4,7 +4,7 @@ export const About = () => {
   const title = "Tiago Funk";
   const text = [
     "Tenho formação em Engenharia de Software e atualmente sou aluno de mestrado em computação aplicada.",
-    "Já atuei com monitoria e projetos de pesquisa durante a faculdade e trabalhei com desenvolvimento android por um breve período.",
+    "Já atuei com monitoria e projetos de pesquisa durante a faculdade e trabalhei com desenvolvimento android.",
     "Programo em Java, C/C++ e Python.",
   ];
 

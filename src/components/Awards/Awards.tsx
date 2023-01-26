@@ -4,6 +4,7 @@ import udesc from "../../assets/img/Icons/udesc.png";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Awards = () => {
+  const title = "Prêmios";
   const contentList = [
     {
         photo:udesc,
@@ -27,7 +28,7 @@ export const Awards = () => {
 
   return (
     <Container>
-      <Title>Prêmios</Title>
+      <Title>{title}</Title>
       {contentList.map((content) => (
         <ItemList
           image={content.photo}

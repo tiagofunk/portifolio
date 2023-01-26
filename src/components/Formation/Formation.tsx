@@ -4,17 +4,17 @@ import udesc from "../../assets/img/Icons/udesc.png"
 import { ItemList } from "../ItemList/ItemList";
 
 export const Formation = () => {
+  const title = "Formação Acadêmica";
+  const FORMATIONS = [
+      {photo:udesc, title:"Bacharelado em Engenharia de Software", subtitle:"Universidade do Estado de Santa Catarina", text:"2016-2019"},
+      {photo:udesc, title:"Mestrado em Computação Aplicada", subtitle:"Universidade do Estado de Santa Catarina", text:"2021-Presente"}
+  ]
 
-    const FORMATIONS = [
-        [udesc, "Bacharelado em Engenharia de Software", "Universidade do Estado de Santa Catarina", "2016-2019"],
-        [udesc, "Mestrado em Computação Aplicada", "Universidade do Estado de Santa Catarina", "2021-Presente"]
-    ]
-  
   return (
     <Container>
-      <Title>Formação Acadêmica</Title>
-      {FORMATIONS.map( (args) => (
-        <ItemList image={args[0]} title={args[1]} subtitle={args[2]} text={args[3]}/>
+      <Title>{title}</Title>
+      {FORMATIONS.map( (content) => (
+        <ItemList image={content.photo} title={content.title} subtitle={content.subtitle} text={content.text}/>
       ))}
     </Container>
   );

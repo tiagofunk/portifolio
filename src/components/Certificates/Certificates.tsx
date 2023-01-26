@@ -4,6 +4,7 @@ import alura from "../../assets/img/Icons/alura.jpeg";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Certificates = () => {
+  const title = "Certificados";
   const contentList = [
     {
       photo: alura,
@@ -51,7 +52,7 @@ export const Certificates = () => {
 
   return (
     <Container>
-      <Title>Certificados</Title>
+      <Title>{title}</Title>
       {contentList.map((content) => (
         <ItemList
           image={content.photo}

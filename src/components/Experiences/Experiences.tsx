@@ -6,6 +6,7 @@ import profes from "../../assets/img/Icons/profes.png";
 import { ItemList } from "../ItemList/ItemList";
 
 export const Experiences = () => {
+  const title = "Experiências";
   const contentList = [
     {
         photo:profes,
@@ -53,7 +54,7 @@ export const Experiences = () => {
 
   return (
     <Container>
-      <Title>Experiências</Title>
+      <Title>{title}</Title>
       {contentList.map((content) => (
         <ItemList
           image={content.photo}

@@ -6,7 +6,7 @@ import gmail from "../../assets/img/Contact/gmail.png";
 import whatsapp from "../../assets/img/Contact/whatsapp.png";
 
 export const Contact = () => {
-
+  const title = "Meus contatos";
   const githubLink = "https://github.com/tiagofunk";
   const linkedinLink = "https://www.linkedin.com/in/tiago-funk/";
   const emailLink = "mailto:tiagoff.tf@gmail.com?subject=Quero falar com você"
@@ -15,7 +15,7 @@ export const Contact = () => {
 
   return (
     <Container>
-      <Title>Meus contatos</Title>
+      <Title>{title}</Title>
       <IconsArea>
         <a href={githubLink} target="_blank" rel="noreferrer"><Icon src={github} /></a>
         <a href={linkedinLink} target="_blank" rel="noreferrer"><Icon src={linkedin} /></a>

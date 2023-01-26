@@ -11,12 +11,13 @@ import pandas from "../../assets/img/tecnologies/pandas.png";
 import linux from "../../assets/img/tecnologies/linux.png";
 
 export const Tecnologies = () => {
+  const title = "Tecnologias que eu utilizo";
   const icons1 = [java, cpp, c, python, git ];
   const icons2 = [react, latex, pandas, linux];
 
   return (
     <Container>
-      <Title>Tecnologias que eu utilizo</Title>
+      <Title>{title}</Title>
       <AllImages>
         {icons1.map((icon) => (
           <Image src={icon} />

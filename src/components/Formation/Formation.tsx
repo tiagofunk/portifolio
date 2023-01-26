@@ -6,8 +6,8 @@ import { ItemList } from "../ItemList/ItemList";
 export const Formation = () => {
   const title = "Formação Acadêmica";
   const FORMATIONS = [
-      {photo:udesc, title:"Bacharelado em Engenharia de Software", subtitle:"Universidade do Estado de Santa Catarina", text:"2016-2019"},
-      {photo:udesc, title:"Mestrado em Computação Aplicada", subtitle:"Universidade do Estado de Santa Catarina", text:"2021-Presente"}
+    {photo:udesc, title:"Mestrado em Computação Aplicada", subtitle:"Universidade do Estado de Santa Catarina", text:"2021-Presente"},
+      {photo:udesc, title:"Bacharelado em Engenharia de Software", subtitle:"Universidade do Estado de Santa Catarina", text:"2016-2019"}
   ]
 
   return (

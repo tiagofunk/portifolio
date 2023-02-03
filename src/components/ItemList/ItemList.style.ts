@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import Theme from "../../theme/Theme";
+
+const { fonts } = Theme;
 
 export const Container = styled.div`
     width: 80%;
@@ -23,13 +26,13 @@ export const TextBox = styled.div`
 `;
 
 export const Title = styled.div`
-    font-size: 2.4rem;
+    font-size: ${fonts.size.large};
 `;
 
 export const SubTitle = styled.div`
-    font-size: 2rem;
+    font-size: ${fonts.size.default};
 `;
 
 export const Text = styled.div`
-    font-size: 2rem;
+    font-size: ${fonts.size.default};
 `;

@@ -40,10 +40,10 @@ export const Box = styled.div`
     margin-top: 1rem;
     margin-left: 1rem;
     padding: 1rem;
+    width: 43%;
 `;
 
 export const Img = styled.img`
-    width: 20rem;
-    height: 10rem;
+    height: 8rem;
     margin: 1rem;
 `;

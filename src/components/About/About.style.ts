@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import Theme from "../../theme/Theme";
+
+const { fonts } = Theme;
 
 export const Container = styled.div`
     width: 80%;
@@ -7,16 +10,16 @@ export const Container = styled.div`
     align-items: center;
     background-color: white;
     margin-left: 10rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 `;
 
 export const Title = styled.div`
-    font-size: 2.4rem;
+    font-size: ${fonts.size.large};
 `;
 
 export const Text = styled.div`
-    font-size: 1.6rem;
+    font-size: ${fonts.size.default};
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem;
 `;

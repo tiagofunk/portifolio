@@ -37,10 +37,15 @@ export const Box = styled.div`
     flex-direction: column;
     align-items: center;
     border: 1px solid black;
+    border-radius: 3%;
     margin-top: 1rem;
     margin-left: 1rem;
-    padding: 1rem;
+    padding: .5rem;
     width: 43%;
+
+    &:hover {
+        box-shadow: 2px 2px 2px 2px gray;
+    }
 `;
 
 export const Img = styled.img`

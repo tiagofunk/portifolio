@@ -1,6 +1,7 @@
 import { Container, Title } from "./Experiences.style";
 
 import udesc from "../../assets/img/Icons/udesc.png";
+import ifc from "../../assets/img/Icons/ifc.png";
 import nelogica from "../../assets/img/Icons/nelogica.jpeg";
 import profes from "../../assets/img/Icons/profes.png";
 import { ItemList } from "../ItemList/ItemList";
@@ -9,10 +10,22 @@ export const Experiences = () => {
   const title = "Experiências";
   const contentList = [
     {
+      photo: udesc,
+      title: "Professor substituto do curso de Engenharia de software",
+      subtitle: "Matérias ministradas: Modelagem de Banco de Dados, Padrões de Projeto, Engenharia de Requisitos, Gerenciamento de Projetos I, Fundamentos de Engenharia de Software e Projeto Integrador I",
+      text: "Nov 2023 - Presente",
+    },
+    {
+      photo: ifc,
+      title: "Professor substituto do curso de Informática",
+      subtitle: "Matérias ministradas: Web Design, Fundamentos da Informática, Banco de dados, Engenharia de Software,Programação II, Programação Mobile e Hardware e Sistemas Operacionais",
+      text: "Mar 2023 - Presente",
+    },
+    {
       photo:profes,
       title:"Professor particular de programação nas Plataformas SuperProf e Profes",
       subtitle:"Professor de programação e matemática.",
-      text:"Out 2022 - Momento"
+      text:"Out 2022 - Presente"
     },
     {
       photo: nelogica,

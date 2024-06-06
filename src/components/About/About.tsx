@@ -3,9 +3,9 @@ import { Container, Title, Text } from "./About.style";
 export const About = () => {
   const title = "Tiago Funk";
   const text = [
-    "Tenho formação em Engenharia de Software e atualmente sou aluno de mestrado em computação aplicada.",
-    "Já atuei com monitoria e projetos de pesquisa durante a faculdade e trabalhei com desenvolvimento android.",
-    "Programo em Java, C/C++ e Python.",
+    "Tenho formação em Engenharia de Software pela UDESCCEAVI e mestrado em computação aplicada pela UDESC/CCT.",
+    "Atualmente sou professor do curso de Informática do IFC-Ibirama e professor do curso de engenharia de software da UDESC/CEAVI.",
+    "Programo em Java, C/C++, Python, Node e React.",
   ];
 
   return (
